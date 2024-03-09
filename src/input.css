@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Atkinson_400Regular"; /*Can be any text*/
+  src: local("AtkinsonHyperlegible-Regular"),
+    url("../public/assets/fonts/AtkinsonHyperlegible-Regular.ttf")
+      format("truetype");
+}
+
+* {
+  font-family: "Atkinson_400Regular";
+}
