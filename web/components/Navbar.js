@@ -3,7 +3,7 @@ import React from "react";
 function Navbar(props) {
   return (
     <div className="w-screen flex justify-between items-center pt-6 pb-6">
-      <div className="flex justify-between w-1/3 pl-6 items-center">
+      <div className="flex justify-between w-96 pl-6 items-center">
         <p className="text-2xl font-bold">Snack.ia</p>
         <a className="text-gray-400 hover:text-gray-700" href="#">
           Nos clients
